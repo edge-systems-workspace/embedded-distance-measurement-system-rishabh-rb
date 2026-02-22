@@ -58,7 +58,7 @@ void loop() {
     // Send 10 microsecond pulse on TRIG
     digitalWrite(TRIG_PIN, HIGH);
     delayMicroseconds(10);
-    digitalWrite(TRIG_PIN, LOW);
+    digitalWrite(TRIG_PIN, LOW) ;
 
     // TODO 11:
     // Measure pulse duration on ECHO using pulseIn()

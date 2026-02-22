@@ -70,7 +70,7 @@ void loop() {
 
     // TODO 13:
     // Print calculated distance
-    Serial.print("Distance: ");
+    Serial.print("Distance:  ");
     Serial.print(distance);
     Serial.println(" cm");
 
